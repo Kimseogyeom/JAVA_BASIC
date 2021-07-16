@@ -17,7 +17,7 @@ public class Practice4_3 {
 		int width, height;
 		int sum = 0;
 		Scanner scanner = new Scanner(System.in);
-		Rect[] rectArray = new Rect [4];
+		Rect[] rectArray = new Rect [4];// int array [] = new int[5]
 		for(int i=0; i<4;i++) {
 			System.out.printf("너비와 높이>>");
 			width = scanner.nextInt();
